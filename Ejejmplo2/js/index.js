@@ -13,7 +13,8 @@ function teclado(e){
     // (nombre===true)
 }
 function leer(){
-    nombre=document.querySelector("#campo").value;
+    // Trim borra espacios al principio y al final
+    nombre=document.querySelector("#campo").value.trim();
     (nombre) && (document.querySelector(".caja").innerHTML=`Hola ${nombre}`)
     limpiar();
 }
@@ -21,7 +22,8 @@ function leer(){
 function limpiar(){
     const ELEMENTO=document.querySelector("#campo");
     ELEMENTO.value="";
-
+    // Al pulsar el boton borra contenido esrito dentro de input
+    ELEMENTO.focus();
 }
 
 
