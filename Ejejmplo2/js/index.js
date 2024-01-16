@@ -1,16 +1,21 @@
-let nota;
+let nombre;
 document.querySelector(".boton").addEventListener("click",leer);
 
 function leer(){
-    // Convertimos a numerico
-    nota=Number(document.querySelector("#campo").value);
-    // Con suma da problemas demas bien
-    // document.querySelector(".caja").innerHTML=nota+1
-    // Pongo un numero en input y al pulsar suma uno al numero
-    // document.querySelector(".caja").innerHTML=++nota
-    
-    document.querySelector(".caja").innerHTML=nota+1
-    
 
+    nombre=document.querySelector("#campo").value;
+    // Cuando nombre no es nada(abreviado nombre)
+    // (nombre!=="")
+    // (nombre===true)
+    (nombre) && (document.querySelector(".caja").innerHTML=`Hola ${nombre}`)
+    
     
 }
+// Es false al convertir a booleano
+// false
+// undefined
+// null
+// 0
+// -0
+// NaN
+// ""
