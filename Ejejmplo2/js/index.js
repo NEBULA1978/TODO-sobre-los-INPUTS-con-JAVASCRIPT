@@ -1,11 +1,8 @@
 let nombre;
 document.querySelector(".boton").addEventListener("click",leer);
-document.querySelector("#campo").addEventListener("keydown",teclado)
+document.querySelector("#campo").addEventListener("keydown",teclado);
+limpiar();
 
-function leer(){
-
-    nombre=document.querySelector("#campo").value;
-}
 
 function teclado(e){
     // Cuando la tecla pulsada sea enter ira a funcion leer
@@ -14,10 +11,21 @@ function teclado(e){
     // Cuando nombre no es nada(abreviado nombre)
     // (nombre!=="")
     // (nombre===true)
-    (nombre) && (document.querySelector(".caja").innerHTML=`Hola ${nombre}`)
-    
-    
 }
+function leer(){
+    nombre=document.querySelector("#campo").value;
+    (nombre) && (document.querySelector(".caja").innerHTML=`Hola ${nombre}`)
+    limpiar();
+}
+
+function limpiar(){
+    const ELEMENTO=document.querySelector("#campo");
+    ELEMENTO.value="";
+
+}
+
+
+
 // Es false al convertir a booleano
 // false
 // undefined
