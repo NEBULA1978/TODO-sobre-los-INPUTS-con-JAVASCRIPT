@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de Inserción en el DOM</title>
+</head>
+<body>
+
+<div id="tuElementoExistente">
+  <!-- Contenido existente -->
+  <p>Contenido existente aquí.</p>
+</div>
+
+<script>
+  // Ejemplo 1: insertBefore para insertar un <div> antes de la apertura de un elemento
+  const existingElement = document.getElementById('tuElementoExistente');
+  const newDiv = document.createElement('div');
+  existingElement.parentNode.insertBefore(newDiv, existingElement);
+
+  // Ejemplo 2: insertAdjacentHTML para insertar HTML antes del elemento
+  existingElement.insertAdjacentHTML('beforebegin', '<p>Hola mundo</p>');
+
+  // Ejemplo 3: insertAdjacentHTML para insertar HTML como primer hijo del elemento
+  existingElement.insertAdjacentHTML('afterbegin', '<p>Hola mundo</p>');
+
+  // Ejemplo 4: insertAdjacentHTML para insertar HTML como último hijo del elemento
+  existingElement.insertAdjacentHTML('beforeend', '<p>Hola mundo</p>');
+
+  // Ejemplo 5: insertAdjacentHTML para insertar HTML después del elemento
+  existingElement.insertAdjacentHTML('afterend', '<p>Hola mundo</p>');
+
+  // Ejemplo 6: insertBefore para insertar un <div> después de la etiqueta de cierre
+  const siblingElement = existingElement.nextElementSibling;
+  const newDivAfter = document.createElement('div');
+  existingElement.parentNode.insertBefore(newDivAfter, siblingElement);
+
+  // Ejemplo 7: insertAdjacentHTML para insertar texto plano después del elemento
+  existingElement.insertAdjacentHTML('afterend', 'Texto después del elemento');
+
+  // Ejemplo 8: insertAdjacentElement para insertar un <p> como último hijo del elemento
+  existingElement.insertAdjacentElement('beforeend', document.createElement('p'));
+
+  // Ejemplo 9: insertAdjacentText para insertar texto después del elemento
+  existingElement.insertAdjacentText('afterend', 'Texto de ejemplo después del elemento');
+</script>
+
+</body>
+</html>
