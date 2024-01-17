@@ -1,0 +1,362 @@
+almacenado dentro de nombre vale Lo que pasa es que Bueno aquí me irá a
+convertir y en convertir no hay absolutamente nada qué será lo siguiente que vayamos a hacer convertir bien aquí
+Convertir (sólo) la primera letra en Mayúsculas
+lo que tiene que hacer es recibir lo que escrito el usuario y convertirlo de la manera correcta es decir poner la
+primera letra en mayúsculas y las siguientes en minúsculas qué ocurre que esto viene desde esta línea y resulta
+que almaceno dentro de esta constante lo que ha escrito el usuario dentro de mí y
+en la línea 8 se borra vale Bueno pues todo lo que voy a hacer es enviárselo a convertir y le digo sabes convertir te
+voy a enviar un valor que en este caso va a ser nombre te lo envío y la función
+lo guarda aquí y le puedo poner cualquier tipo de valor valor no tiene por qué ser nombres Exactamente igual
+con lo cual valor será el nombre que le ha enviado la línea 6 y es una variable
+local que únicamente tiene validez dentro de Aquí pues bien lo que tengo que hacer es devolver el valor correcto
+Entonces aunque yo lo podría poner aquí el valor y ningún problema bueno para verlo más fácilmente lo voy a poner en
+una en una variable led o bien con que me gusta más en este caso que será el
+nombre correcto será igual a algo y este nombre correcto será el que yo devuelva
+para que vuelva aquí devolveré nombre correcto entonces nombre correcto será
+el valor y decir el nombre con la primera mayúsculas y luego la siguiente en minúsculas entonces lo que voy a
+hacer es poner comillas invertidas porque voy a hacer aquí una mezcla de cosas vale aquí Pondré la primera letra
+y aquí pondré el resto de letras que Pondré la primera letra en mayúsculas y
+aquí pondré las siguientes pero en minús es decir aquí pondré algo tú uppercase
+y aquí pondré algo con tu lowells Vale
+entonces como no quiero convertir todo aquí tengo que poner la primera letra y como vimos para obtener la primera letra
+ponemos valor que será el nombre el nombre que sea y luego con substream le
+digo que vaya desde la primera de decir la cero todo empieza en el cero a partir
+del acero hasta la 1 hay que tener en cuenta que irá del acero a la 1 pero sin
+cogerla uno únicamente obtendrá una de ellas la primera letra vale Y luego Aquí lo mismo pero diferente vamos a decir
+que coja el nombre y luego con substream aquí es un pelín diferente porque no sé
+cuántos caracteres hay aquí no hay ningún problema es una letra La primera
+cero aquí tiene que ser desde la segunda hasta el final Vale entonces la segunda
+letra no es la 2 si lo que es la 1 porque como empieza por la cero si pusiera dos cogería a partir la letra
+entonces una opción incorrecta pudiera ser aquí poder una cantidad muy larga funcionaría bien pero es muy cutre
+evidentemente lo que voy a poner es ningún tipo de valor cuando no le pongo ningún tipo de valor él es selecciona
+desde la segunda la letra 1 la 0 la 1 desde la 1 hasta el final y hasta el
+final y sin importar Cuántos cuántos caracteres hay y lo que sea lo convierte en minúsculas bien Por lo tanto la
+primera en mayúsculas y la siguiente en minúsculas esto lo almacena dentro de un
+hombre correcto y nombre correcto lo devuelve Perfecto aquí se lo devuelve
+Bueno pues se lo devuelve a estar aquí y resulta que esto es pobre expresión no
+hay ningún igual no hay nada con lo cual aquí Bueno pues Se perdería de manera
+total entonces una vez yo convierta el nombre en un nombre correcto lo que
+tengo que hacer es enviarlo a alguna función donde lo escriba donde lo escriba dentro de mi Select etcétera
+etcétera bien esta función no existe la función que yo crearé pues yo que sé por
+ejemplo aquí función escribir por ejemplo Vale
+entonces lo que voy a hacer es decirle que escribir
+tenga dentro la función y esto Cómo se ve bien cuando nosotros tenemos una expresión como esta con muchos
+paréntesis los paréntesis es el operador con mayor grado de precedencia estilo
+que hace Primero lo primero primero primero es Nombre nombre que lo que hacéis obtener el valor Bueno luego va a
+convertir a convertir nombre con lo cual viene a convertir convierte todo y cuando lo devuelve vuelve al siguiente
+viene aquí y hace lo que bueno lo siguiente que sería el escribir por lo
+tanto como el escribir es lo que está fuera de cualquier paréntesis es lo que hace al final escribir obtiene el nombre
+ya correctamente escrito y se va a la función de escribir y aquí Viene otro
+problema vale una vez el usuario ya ha escrito un nombre lo ha convertido ya ha
+puesto Hub y ha puesto la J en mayúscula etcétera y se lo envía a escribir que de
+alguna manera lo tiene que recibir el escribir no recibe nada por lo tanto si el escribir ha obtenido de este reto ha
+obtenido algo aquí es como si hubiera puesto Hub con la J mayúscula el escribirlo tiene que recibir de alguna manera este valor vale lo vamos a poner
+aquí le ponemos nombre aquí recibe el nombre ya correcto con la primera mayúsculas etcétera bien y este nombre
+lo tiene que almacenar lo tiene que Añadir a un Select que no existe el
+Select no está aquí no está aquí vale Por qué no está aquí porque si no
+saldría de inicio y yo lo quiero crear dentro de resultado Por qué puesto aquí una caja una etiqueta para Añadir aquí
+el Select que diríais bueno pues que el spam casi que ni existe bueno porque a
+la hora de crear cualquier tipo de contenido utilizando el Inner html
+todavía veremos que hay un error problema si lo meto dentro de una caja
+Bueno pues no hay ningún tipo de problema no afecta al resto de elementos pero yo aquí no pongo una caja y lo
+añado al Body el líder html cuando añada contenido lo veremos en un vídeo más
+adelante lo que hace es cargarse cualquier tipo de interacción que
+pudiera ver aquí es decir que el un clic de este botón se lo carga si aquí
+hubiera algún código de javascript se lo cargaría y subir aquí alguno Que no lo hay lo cargaría es decir que se cargaría
+por lo tanto al escribir se cargaría este ad everytner de aquí ya no
+existiría Por lo tanto lo que hago para evitar esto es o bien utilizar el insert html que no lo voy a hacer porque
+todavía no lo he explicado o bien la mejor manera en este caso html limpia sería crear una caja solo para eso y de
+esta manera no habrá ningún tipo de problema como no hay nada no se puede cargar nada perfecto maravilloso genial
+muy bien muy bien como decía javascript lo que tiene que venir a resultado es
+Creación dinámica de un select con sus options
+crear un Select y luego crear diferentes opciones para
+cada una de las opciones Pero qué pasa como veremos esto este Select solo lo
+tiene que hacer una vez si yo escribo más de un nombre lo tiene que hacer con el primer nombre con el segundo no va a
+crear un nuevo Select sino que lo que tiene que crear son diferentes opciones con el siguiente nombre que yo ponga
+tiene que crear una opción nuevo pero no tiene que crear otros Select vale por lo
+tanto el Select solo solo no tiene que crear la primera vez bien pero vamos por
+partes lo primero que tiene que hacer al ir a mi función escribir es ir a
+resultado document selector resultado que recuerdo que es
+este de aquí que es un spam una caja y aquí crearía contenido html por lo tanto
+le digo Inner html le pongo un más y un igual para que lo añada lo veremos que
+hay que cambiarlo Pero bueno de momento lo así y luego Aquí le ponemos un Select con el cierre vale con esto crea un
+Select totalmente vacío bien y ahora lo siguiente aunque lo podría hacer en esta misma línea pero es mejor hacerlo en dos
+para ir por partes aquí le digo que vaya a mi Select como no le he puesto un
+nombre y solo hay uno le pongo Select subirá más de uno podía ponerle aquí un Class y me haría referencias pero bueno
+como todo tengo uno y quiero que se entienda perfectamente le digo que vaya al Select que ya existe y le digo que
+tiene que Añadir Aquí sí que el más igual está totalmente justificado tiene
+que crear un opción y dentro dentro de la opción voy a poner el nombre que ya
+está correctamente modificado si lo pongo aquí veo que si aquí pongo Hub
+todo en mayúsculas hago clic en el botón todavía no vale enter aquí lo pone correctamente Ay qué bien vale vengo
+aquí y le digo el vicio da igual como lo ponga porque lo va a poner bien bien aquí y me está creando otro Select aquí
+lo ha hecho correctamente pero lo está creando otros Select y cada vez que yo haga algo me creará un Select nuevo
+porque porque en esta línea de aquí le estoy diciendo que añade Y si yo digo
+Bueno pues le quito el igual Entonces tampoco va a funcionar correctamente Porque si yo pongo Hub perfecto
+maravilloso le pongo ahora el vicio y me elimina uno que por el otro siempre hay
+uno por lo tanto esta línea de aquí la tiene que hacer únicamente si no existe
+si no existe ningún tipo de Select si existe no lo tiene que hacer cómo lo voy
+a hacer esto Bueno pues con otra expresión como la que he hecho arriba un condicional bien Entonces le voy a decir
+primero el Select lo que tengo que ver es si no existe si existe pues no lo
+tiene que crear si no existe Pues sí Entonces cuando yo a javascript le pregunto Oye document selector Select si
+no lo encuentra no da error simplemente me devuelve null no la he encontrado Perfecto Bueno pues la condición que yo
+haría voy a ponerlo entre paréntesis para que me entienda mejor es si esto de
+aquí que no lo he copiado es igual igual igual a null lo que tienes que hacer es
+ir a una función que no existe que se va a encargar de crear el Select Entonces
+esto estaría bien Pero lo puedo mejorar un poquito antes hemos dicho que cuando
+convierte algo en booleano si es null lo convertiría el valor a false por lo
+tanto en vez de poner aquí esto que también estaría correcto lo puedo resumir un poquito poniéndolo aquí que cuando esto no sea
+true es decir que cuando lo dejamos así estamos asumiendo que queremos el Igual
+igual a estamos asumiendo vale pero cuando yo quiero Igual igual a false
+puedo poner o bien esto o bien el null o bien En vez de poner esto aquí puedo
+poner aquí el operador de la negación para que no sea el valor por defecto que es true si nuestro serás Bueno pues
+cuando el elemento no sea true decir cuando no exista cuando sea null en este
+caso irá a crear el Select es decir que estoy aquí en vez de ponerlo aquí en
+este momento lo voy a poner en una función aparte función crear Select
+con lo cual Únicamente lo creará cuando lo haga vale Pero tengo otra cosa que es
+que a la hora de crear un Select si yo quiero que al hacer clic en la flechita me haga algo como por evento si no no lo
+va a hacer por lo tanto ya que he creado aquí el Select debajo voy a darle algún
+tipo de evento aquí para ir más rápido me voy a la parte de abajo y una vez ya
+ha creado el Select ya está creado está ahí ningún problema pues ya le puede decir Hey te voy a Añadir un evento
+el evento lo normal es que fuera el evento change para que cuando un se le cambiara de valor lo hiciera pero en
+este caso voy a poner un clic el evento click para que aunque escoja el primer
+el primero de los input también funcione porque al principio ya se rellena automático ahora lo veremos Entonces
+cuando haga clic irá a una función que se llama saludo Pero cuidado cuando yo
+hago referencia a una función para que no me dé error esa función tiene que existir al menos vale ahora existe vale
+Por qué decía el clic y la exchange Porque yo vengo aquí yo aquí le pongo Hub hace clic ya lo tiene bien si yo
+pongo un Select y selecciono el mismo no lo haría el change solo funciona cuando yo escojo un valor diferente con lo cual
+yo haría clic Hub que es el mismo ignoraría como le he puesto un click lo hace con un clic es decir yo hago aquí
+clic en cap y accedería a saludo Vale ahora no hace nada porque evidentemente
+que tengo aquí pero si yo me voy al input y quiero escribir aquí algo Cómo
+escribo dentro de un input con value aquí le digo lo que quiero que escriba qué tiene que escribir pues tiene que
+Acceder al Select y seleccionar lo que haya escrito es decir el value por lo
+tanto aquí le digo que vaya al Select esto no lo tengo como alias con lo cual lo tengo que escribir Sí o sí Select
+vale Y una vez ha ido al Select le digo Hey escribe tu value el value es lo que
+hay aquí escrito decir que si hay Hub el value será Hub pero si el momento de
+hacer clic Bueno pues pico en Eva esto es el value Por lo cual el value que haya lo coloca en el input Pero por qué
+no lo ha puesto al principio Porque si al principio yo aquí pongo hervigio da igual como lo ponga hago clic y le pongo
+un change al hacer clic aquí en un change no lo haría porque no ha cambiado y poner vicio y yo he selecciona
+prodigio pero como le he puesto con un clic a la hora de hacer un clic automáticamente aunque yo no le haya
+seleccionado automáticamente me lo pone Qué problema tiene esto El problema es que si yo añado dos cuando yo hago clic
+para abrirlo se selecciona y luego a la hora de hacer clic se pone el definitivo no lo veo incorrecto me parece hasta
+bien y todo ahora el siguiente paso Es que esto funcione también evidentemente con el teclado si yo pongo aquí Hub Y le
+Añadir funcionalidad con el teclado
+doy al enter debería funcionar también bien Esto simplemente es en la parte superior poner otro evento y en este
+caso se lo pondría a mi input como aquí hemos puesto la referencia la voy a poner en la parte de arriba vale para
+colocarlo mejor y aquí en vez de poner documento etcétera le pongo input el
+input luego add Evening listener porque quiero ponerle un evento aquí de los que
+hay que ya comenté en el vídeo anterior que Idaho que ya y keypress puede ir
+bien más de uno pero bueno voy a poner el que se pone siempre por defecto que irá aún para que me detecte todas las
+teclas cuando la tecla se hunda ya que el app y el keypress Bueno pues funcionan cuando la tecla es soltada en
+este caso me daría igual y tiene que ir a la función teclado por ejemplo que lo
+voy a poner aquí teclado aquí le pongo el evento que guarda todas las
+información que guarda toda la información que yo quiero y le voy a decir que cuando de e la propiedad que
+indica la tecla que he pulsado sea igual igual que la tecla enter que es la que
+yo quiero que esté pendiente cuando esto se produzca Bueno pues que vaya a una
+función que se llama leer y que la tengo aquí por lo tanto el teclado ya
+funcionaría si lo pruebo accedo aquí pongo un nombre con la tecla enter funciona escojo otro otro con la tecla y
+aquí aparecen cada uno de ellos hacer clic aparece el primero porque a una manera lo puedo dejar así pero si hago
+clic en otro aparece el que yo le he comentado cada uno de ellos aparece escrito en el input superior Esta es la
+actividad que tienes que intentar hacer la actividad 2 también es muy interesante en el html ya sabes que en
+ACTIVIDAD 2* : ¿Qué es lo que tienes que hacer?
+el archivo comprimido tienes todo montado todo funcionando lo único que falta la parte de javascript para que te
+concentres en ella aquí dentro del dip tenemos un Select con diferentes descuentos luego tenemos un input con su
+etiqueta para escribir el precio únicamente valores numéricos y luego tenemos dos inputs ya creados uno donde
+javascript Bueno pues mostrará el descuento y otro donde mostrará el precio total como son dos propiedades
+red only el usuario No puede escribir solo son para que javascript los escriba
+Bien dentro del css pues tenemos un poquito de características gráficas Pero
+hay selector que es este de aquí que lo que nos permite es que el input de tipo
+number que hemos creado dentro del index.html no muestre los botones de
+arriba de abajo como sería lo habitual el resto de opciones son totalmente opcionales bien cómo funciona tenemos
+por una parte esta estructura que es la que hemos creado dentro del html el código que tenéis que crear es hacer
+clic en el input aparece el aquí todas las opciones ningún problema aquí escribo un precio y no hay botón nada
+más escribir cualquier tipo de cantidad me hace el descuento del 1% y aquí me
+hace pues el resumen 45 menos el descuento tendría que pagar
+44.55 teniendo en cuenta que si yo ahora selecciono cualquier otro descuento todo
+se modifica sin ningún tipo de problema 25% lo mismo y además cuando yo elimino
+la parte de arriba el valor de arriba todo se vuelve a vaciar y cuando yo selecciono aquí
+cualquiera como no hay nada escrito tampoco lo hace esto es lo que tienes que hacer detén aquí el vídeo para
+intentar hacer la actividad o sigue viéndolo para acceder a la solución para esta segunda actividad el body es un
+poquito más grande Tenemos aquí un Select con los diferentes descuentos ya creado dentro de para que esté toda una
+ACTIVIDAD 2* : SOLUCIÓN. Explicación paso a paso
+cosa debajo de la otra luego Tenemos aquí el input donde escribiremos el precio Time number y autofocus para que
+el cursor se meta dentro inicialmente al menos luego otro input donde el usuario reator y no podrá escribir y donde será
+javascript el que lea y luego al final otro input que también es de solo lectura para que Java escribe el total
+del precio menos el descuento y aquí pondrá toda la bueno toda la Línea bien
+es real only y todo está dentro de cajas de ti para que esté una cosa debajo de
+la otra y ya veremos que en el css es un poquito Bueno más complejo tema de
+fuentes aquí le pongo el display Line block para que cada una de las etiquetas pueda mantener un ancho si no le podemos
+display Line blog como son de elementos de tipo online el with no va a funcionar todo lo demás bueno es para que sean más
+bonitos tipo de letra Fuentes espaciado etcétera este es para que el total el
+input sea más grande y esto aquí abajo no lo voy a explicar porque un input de
+tipo number como es este de aquí no aparezcan las flechitas arriba abajo
+dentro del input a nivel de css se puede eliminar y el Index js como siempre lo
+tenemos totalmente vacío perfecto y esto luce de esta manera aquí tenemos el
+Select y aquí lo que tenemos que hacer ahora que funcione es a la hora de escribir algo aquí no puedo escribir
+aquí tampoco puedo escribir a la hora de escribir aquí algo ir a rellenando el
+descuento y en total perfecto por lo tanto lo primero que serían los eventos
+pero aquí no hay botón no hay ningún tipo de botón con lo cual lo tiene que ir haciendo mientras yo escriba escribo
+el 3 y ya hace las operaciones vale por lo tanto el evento será de teclado no
+será el de tipo clip como es habitualmente por lo tanto el primer evento lo va a tener nuestro input
+llamado precio vale me voy aquí y le digo document esto lo hago más grande
+con control B le digo que vaya a el elemento llamado almohadilla precio vale
+Y aquí le voy a Añadir un evento Vale entonces Qué evento le voy a utilizar
+Aquí no hay un clic porque no hay que utilizar ningún tipo de Clip Bueno aquí hay que obtener el teclado por lo tanto
+le puedo poner que down que ya o bien keypress a ver si yo le pongo key down
+vamos a tener un problema y el problema de la serie cuando yo acceda al para
+saber qué ha escrito el usuario es decir si yo pongo aquí un key down y yo pulso
+la tecla 5 elementos ejecuta antes de que javascript escriba el 5 Es decir yo
+escribo un 5 y javascript lee el input dice no hay nada porque como lo he puesto key down cuando la tecla baja
+todavía no la ha escrito con lo cual con key down lo leería antes de la
+actualización del input no me sirve en absoluto por lo tanto me interesa o bien cuando ya lo haya escrito ahora que eso
+sería o bien cuando mi dedo sube que sería el key up o bien el keypress el
+keypress no me hace la mínima gracia porque tiene sus características y Bueno
+Entonces voy a utilizar el que ella que es cuando ya lo ha escrito y la tecla
+sube vale por lo tanto es muy importante que no sea que ya bien cuando ya haya
+escrito todo irá a llamar por ejemplo leer Por qué no bien me voy a la función
+leer qué tiene que hacer aquí pues eso tiene que leer tiene que leer lo que el
+usuario ha escrito bien y aquí pues lo voy a utilizar es un value normal de
+invento una una variable Aunque lo podría hacer todo en la misma línea pero es mejor utilizar aquí una variable Aquí
+tengo que ir a mi querido input llamado precio que si lo utilizo
+muchas veces igual es mejor poner un alias como he hecho en la actividad anterior precio vale Y aquí le voy a
+decir que acceda a su valor lo que he escrito pero resulta que aunque este
+input sea de tipo number y no se pueda escribir nada que no sea número lo va a
+como texto Igualmente lo va a como texto yo quiero que esto tenga un valor numérico por lo tanto le
+voy a poner aquí un number para que me lo convierta de texto siempre va a ser texto a numérico con lo cual lo lee y lo
+convierte en numérico bien ahora con lo que escriba tiene que calcular el
+descuento vale voy a ponerlo en una variable y después lo aplicaré lo
+escribiré primero lo calculo el descuento y después de calcularlo lo escribiré dentro del bien cómo lo
+haríamos Pues bien lo que tiene que hacer es de la cantidad que hemos escrito que lo ha leído en la línea de
+arriba 100 200 124 etcétera lo tiene que multiplicar por el descuento bien pero
+resulta que el descuento lo tenemos aquí arriba Pues el 1% 5% 10 o 25
+inicialmente es 1% pero como tiene que ir variando este valor tiene que ser una
+variable y como tiene que ir variando tiene que ser global y lo tenemos que
+colocar arriba Esto vale con led porque puede ir variando lo por ejemplo dto de
+descuento es cortito y esto tiene que ir al Select documento
+y aquí le pongo mi Select y para saber lo que he escrito le voy a poner Bali
+Qué problema hay El problema es que aquí hay un porcentaje un porciento 1% 5% 10%
+y 25%. el por ciento es lo que me da problemas porque Bueno es un String el
+porciento el simbolito del porciento me sirve el 1 el 5 el 10 y el 25 vale con
+lo cual yo capturo 1% y el 1% se tiene que convertir en uno el porciento lo
+tengo que eliminar entonces para ello no puedo utilizar el number como he hecho aquí porque el number lo intenta
+convertir en numérico tal cual y si no lo puedo hacer no lo hace entonces para ello hay otra opción que es el pars in
+Uso de parseInt (vs Number)
+que lo que hace es convertir algo en un número entero el number gana pero el pars in lo que
+hace es un poquito más inteligente y coge el valor y le pone más ganas Y si
+dice 1% Bueno si lo puedo convertir en número quitándole alguna cosilla lo hace es decir que lo convierte haciendo algún
+pequeño ajuste cuando el numberg no hace ningún tipo de ajuste number lo que hace es lo intenta convertir y ahí se acaba
+por lo tanto el descuento va al Select mira lo que he escrito y lo intenta
+convertir quitándole símbolos extraños strings que hay al final y el 1% lo
+convierte en uno y en un número entero no decimal claro vale por lo tanto me interesa bien con lo cual aquí cómo lo
+hago el descuento que hay que puede ser uno 10 o lo que sea lo divido entre 100
+una operación normalísima bien qué ocurre que esto puede dar decimales y
+como veremos en un vídeo posterior pero ya lo explico porque va a salir ahora cuando javascript utiliza decimales
+algunos casos puede arrojar valores un poquito extraños prefiero no hacerlo
+para que salga vale lo arreglaremos cuando veamos el problema si ahora lo explico y lo arreglo nunca aparecerá
+evidentemente pues no no lo podremos tener en cuenta cuando de error lo haremos bien y este descuento lo tiene
+que escribir donde donde toca que es aquí dentro de este input es really el
+usuario No puede escribir pero javascript sí que puede vale me vengo aquí le digo que vaya al documento
+qeris elector aquí le digo descuento que es como se llama mi input y aquí para
+escribir dentro de un input le pongo valium que tiene que escribir Bueno pues
+descuento vale Si alguien me dice hoy que descuento y descuentos mucho lío bueno Esto es un String porque es el
+nombre del input Y esto es una variable se puede llamar igual sí son de mundos diferentes como si tu perro y tu padre
+se llaman igual ninguno de los dos creo yo que se va a enfadar vale no hay ningún problema Entonces ahora mismo
+cuando yo venga aquí y ponga un 5 me lo hace correctamente cuando ponga un 3 me
+lo hace correctamente 33 correctamente etcétera me lo hace bien Ahora falta que
+también lo haga con el total que aquí ponga 331 menos
+3.31 igual a el resultado que no tengo ganas de calcular mentalmente para esto
+está javascript entonces creo otra variable Total que lo va a calcular él
+para que ya lo tenga esto lo que va a escribir dentro del input primero tiene que escribir lo que haya escrito en la
+parte de arriba o sea este 3 lo tiene que poner aquí luego un símbolo de menos esto de aquí vale Y luego todo lo demás
+vale por lo tanto como son texto voy a ponerlo de esta manera primero hemos
+dicho que tiene que poner la cantidad que es lo que el usuario ha escrito luego el símbolo del menos luego un
+espacio para que quede mejor luego Aquí tiene que poner el descuento que calculado en la línea de arriba luego
+Aquí tiene poder un igual y luego Aquí tiene que poner el resultado de la resta
+que básicamente será cantidad menos descuento vale este texto que es un
+texto lo tiene que escribir en el otro imperio en qué input bueno pues en el
+que está en la parte inferior que se llama total simplemente aquí le pongo
+que el input se llama total y que el valor que tiene que escribir se llama total y de esta manera cuando yo vengo
+aquí y le pongo 55 me lo pone correctamente hasta aquí ningún tipo de problema pero resulta que cuando yo
+selecciono algo del Select y hago 25 debería modificar esto y aplicar el 25%
+de descuento con lo cual debería modificar esto aquí y debería modificar esto de aquí de manera automática pero
+únicamente cuando yo seleccione un elemento de aquí en este caso este este
+Select lo haré con un change para que si está el 25% y yo vuelvo a seleccionar el
+25% no haga la operación solo haga cuando escoja un elemento diferente bien
+esto quiere decir que tengo que tener un evento de tipo change a nuestro Select
+vamos a colocar aquí los eventos como siempre le digo que vaya al documento que me busque un Select
+si no hubiera más de uno le pondría aquí el nombre del Select y aquí le añado un
+evento Qué evento Bueno pues podía ser el clic pero voy a utilizar como he
+dicho hace un momento el change para que solo lo haga cuando cambie el valor el shein es mucho mejor la mayoría de casos
+funciona mejor que el clic porque quiero que él va cuando cambie bien y esto pues tiene que ir a una función donde haga
+todo el cambio Mira voy a ponerle que la función se llame cambio y esta función
+de cambio pues la voy a poner ahí el cambio lo que tiene que hacer es ver el
+value es decir ver lo que he escrito y con el pars in eliminar lo que sería el
+simbolito el porciento y volver a rellenar el descuento y el total bien
+Por lo tanto la variable se llama deto en realidad lo que tiene que hacer es
+esto mismo de aquí lo copio y lo pego pero aparte tiene que hacer más cosas sino aquí haría una
+referencia a la función vale tiene que hacer más cosas que es ir a leer decir
+obtiene el porcentaje y va a leer con lo cual a leer hace todo lo que ha hecho
+antes si ya lo pruebo aquí pongo 34 funciona perfectamente cuando yo hago un
+change lo hace De esta manera pero ya vemos que hay problemillas de decimales
+Solución al problema de los decimales de JavaScript
+con el 5% y un 34 aquí me da más ceros de los deseados y aquí me da más bueno
+Me da bueno increíble entonces lo que tengo que hacer es intentar limpiar el
+tema de los decimales pero ya menos que funciona correctamente Aunque hay que arreglar esto funciona bastante mal con
+algunos porcentajes Entonces cómo lo hago pues bien hay un truco del almendruco esto lo explicaré en un vídeo
+específico muy cortito de esto pero cuando Yo calculo en en este caso el
+descuento aquí lo que tengo que hacer es hacer varias cosas primero voy a decirle
+que esto de aquí decir todo el resultado que puede tener muchísimos decimales a
+veces todo esto pues le ponga un máximo de dos decimales pero no me falta algo
+porque si esto lo hago de esta manera a la hora de yo poner aquí Cualquier tipo
+de cantidad funciona bien pero aquí por ejemplo yo no quiero que haya un cero
+tiene que ser 3.4 no tres punto 40 es
+decir que si yo le pongo tu fidget 2 lo que hace es ponerme dos decimales Sí o sí aunque no haga falta y si esto fuera
+3.00 pues también y hombre en cero este debería quitarse esto que me hace ver
+esto me hace ver que cuando pongo un tufiche 2 el valor no es un número es un texto porque es totalmente imposible que
+un número acabe en cero con un decimal de cero debería
+cómo lo hago Bueno pues convirtiendo esto a numérico si esto lo convierto a
+numérico al convertirlo numérico quita los ceros que haya de los decimales que
+sean inútiles por lo tanto aquí le pongo un number para que haga todo esto y esto
+se lo pongo para que haga al final decir primero que haga esta operación es el
+porcentaje luego hará esto de aquí luego lo convertirá a texto y le pondrá dos
+decimales y lo último será convertirlo a numérico si vengo a probarlo pongo 34 a
+la hora de hacer clic en 5% me lo pone correctamente Pero cuidado me falta algo Porque si por ejemplo pongo un decimal y
+le pongo por ejemplo el 25% aquí lo hace correctamente pero aquí no es decir
+también tengo que hacerlo en la suma esto es una cosa que hay que arreglar y la otra es que si hago esto Bueno pues
+no puedo poner 00 porque debería vaciar tanto esto como esto Solo debería hacer cuando hubiera una cantidad válida Pero
+lo primero es que haga correctamente este tipo de sumas esto lo tengo aquí
+Esta es la suma Bueno pues arriba he hecho lo del number Aquí también lo
+podría hacer lo podría hacer con una función que lo hiciera siempre o lo podría hacer aquí directamente si lo
+hiciera aquí repitiéndolo dos veces para verlo mejor Aquí le pondría number luego le diría
+que hiciera primero la resta después de hacer la resta lo convertiría tu fixe 2
+en como máximo 2 decimales y después lo
+último que haría sería hacer el number o sea lo pruebo vengo por aquí 3,1 le
+pongo 25% y me lo hace correctamente Vale y lo siguiente como he dicho es que
+cuando esto lo dejo vacío bueno no puedo hacer ningún tipo de resultado lo que tiene que hacer es eliminar esto de aquí
+que no lo puedo eliminar yo porque es un real only y eliminar también esto de Aquí vamos a ello a ver aquí en la parte
+superior le hemos dicho que al escribir cualquier tipo de tecla vaya a leer aquí
+dentro de leer realiza el cálculo y también cuando Bueno pues seleccionamos
+un porcentaje también podría ser que seleccionamos el porcentaje sin haber nada escrito Bueno también tenía que
+hacer lo mismo entonces hay que hacer un paso previo porque él leer suponemos que la gente es buena y que la gente va a
+hacer lo correcto Entonces tenemos que decirle que cuando vaya a leer lo compruebe y esto Pues que haga el
+cálculo calcular esto en realidad calcular y nos haría falta una función
+de leer que lo que haría sería leer y ver si es correcto o no Es correcto bien
+entonces la lectura no la podemos convertir en numérico Porque si la
+convertimos en numérico cuando lo dejamos vacío Pues sería cero y cero es numérico que podría ser correcto decir
+esto es la lectura Pues bien le vamos a decir que cuando esto sea true es decir
+cuando haya algo escrito cualquier tipo de dato que no sea cero ni menos cero ni
+null ni nada por el estilo tampoco vacío cuando eso se cumpla pues tiene que
+hacer lo que le digamos aquí y cuando no lo que le digamos aquí son unos
+ternarios de toda la vida vale cuando haya escrito algo cuando el válido arriba exista con un valor tú lo que
+tiene que ir es a calcular qué calcular lo tenemos en la parte inferior es esto
+el cálculo y cuando no cuando el valor sea o bien nulo o bien un defined o bien
+cero o bien menos cero o bien sea comillas comillas cuando sea uno de estos valores Entonces esto aquí no se
+cumplirá vale Y tendrá que ir al otro este punto y coma Aquí no aquí nos
+faltaría el Force Vale cuando no tiene que hacer es vaciarlo con lo cual voy a decir que vaya una función que se vaya a
+vaciar aquí ya puedo poner el punto y coma Vale y la función vaciar se va a
+encargar Pues eso de vaciar los dos inputs es decir voy a copiar y pegar voy a copiar estos dos de aquí los voy a
+pegar pero en vez de escribir descuento y total voy a decir que escriba en ambos
+casos comilla comilla cuando accedo aquí Si cambio esto no hay ningún tipo de cálculo lo que hace es vaciarlo si
+escribo si cree un cálculo pero cuando lo borro desaparecen todos los anteriores con lo cual funciona
+Consejo Personal de JAB
+correctamente te aconsejo que mires este vídeo accedas
+a este completo curso y te suscribas al Canal para estar al tanto de todas las novedades [Música]
