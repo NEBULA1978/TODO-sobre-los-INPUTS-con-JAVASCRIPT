@@ -29,6 +29,20 @@
 
   // Ejemplo 5: insertAdjacentHTML para insertar HTML después del elemento
   existingElement.insertAdjacentHTML('afterend', '<p>Hola mundo</p>');
+
+  // Ejemplo 6: insertBefore para insertar un <div> después de la etiqueta de cierre
+  const siblingElement = existingElement.nextElementSibling;
+  const newDivAfter = document.createElement('div');
+  existingElement.parentNode.insertBefore(newDivAfter, siblingElement);
+
+  // Ejemplo 7: insertAdjacentHTML para insertar texto plano después del elemento
+  existingElement.insertAdjacentHTML('afterend', 'Texto después del elemento');
+
+  // Ejemplo 8: insertAdjacentElement para insertar un <p> como último hijo del elemento
+  existingElement.insertAdjacentElement('beforeend', document.createElement('p'));
+
+  // Ejemplo 9: insertAdjacentText para insertar texto después del elemento
+  existingElement.insertAdjacentText('afterend', 'Texto de ejemplo después del elemento');
 </script>
 
 </body>
