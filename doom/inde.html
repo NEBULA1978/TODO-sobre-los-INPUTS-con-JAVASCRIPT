@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de Inserción en el DOM</title>
+</head>
+<body>
+
+<div id="tuElementoExistente">
+  <!-- Contenido existente -->
+  <p>Contenido existente aquí.</p>
+</div>
+
+<script>
+  // Ejemplo 1: insertBefore para insertar un <div> antes de la apertura de un elemento
+  const existingElement = document.getElementById('tuElementoExistente');
+  const newDiv = document.createElement('div');
+  existingElement.parentNode.insertBefore(newDiv, existingElement);
+
+  // Ejemplo 2: insertAdjacentHTML para insertar HTML antes del elemento
+  existingElement.insertAdjacentHTML('beforebegin', '<p>Hola mundo</p>');
+
+  // Ejemplo 3: insertAdjacentHTML para insertar HTML como primer hijo del elemento
+  existingElement.insertAdjacentHTML('afterbegin', '<p>Hola mundo</p>');
+
+  // Ejemplo 4: insertAdjacentHTML para insertar HTML como último hijo del elemento
+  existingElement.insertAdjacentHTML('beforeend', '<p>Hola mundo</p>');
+
+  // Ejemplo 5: insertAdjacentHTML para insertar HTML después del elemento
+  existingElement.insertAdjacentHTML('afterend', '<p>Hola mundo</p>');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+hola cómo les va bienvenidos a un nuevo
+vídeo de javascript hoy les voy a
+mostrar otros métodos que existen para
+insertar contenidos en el dom
+estos métodos son muy útiles y se los
+voy a mostrar en un simple documento que
+dice que es un documento de javascript
+pero que estoy mezclando ya escribir con
+html todo en una sola pantalla porque
+quiero que lo vean se los voy a mostrar
+yo no lo voy a ejecutar este código
+ustedes pueden hacer las pruebas en sus
+máquinas
+como dije para que el vídeo no se haga
+largo y porque a mí lo que me interesa
+es enseñarles no demostrarles que las
+cosas funcionan entonces los métodos
+insert a 60 si discúlpenme por mi inglés
+son mucho más versátiles que a pensáis
+nos ofrecen muchas más posibilidades y
+existen tres versiones las tres
+versiones que existen son las que están
+enumeradas aquí abajo si insert ayer a
+hs element tenemos insert adsense en
+html insert accent text entonces el
+primero es para insertar un objeto un
+elemento si como habíamos visto en la
+clase pasada cuando nos tenemos en una
+variable un objeto insertar entonces ese
+elemento
+esa es la que más van a utilizar y
+quizás la otra que van a utilizar es la
+de insertar directamente un html o sea
+ustedes podrían tener preparado un html
+por ejemplo no sé una etiqueta p de
+apertura y de cierre y en el medio un
+texto y directamente insertar ese bloque
+como lo harían con inner html bueno
+recuerdan que html trabaja con grupos en
+grupos o bloques de código html bueno
+esto es lo mismo ustedes podrían
+insertar un bloque si un bloque html un
+dip completo con la clase la idea el
+texto que va adentro y lo que fuera
+insertarlo como si fuera una sola cosa
+una una línea de código ok pero sería un
+bloque de código que la máquina
+interpretaría como por un lado digamos
+texto y por el otro lado html
+y la otra opción la de texto es insertar
+texto plano como si fuera texto de un
+nodo como si se fuera para meterle a un
+dip el texto que va adentro oa un
+párrafo el texto que va adentro ok
+entonces vamos a empezar con la primera
+que considero yo que es la más la más
+útil para ustedes utilizar cualquiera de
+estas tres o sea cualquiera de estas
+tres opciones estos son métodos fíjense
+que tienen atrás los paréntesis si esto
+es porque son métodos estos métodos
+requieren dos cosas requieren una
+propiedad que tenemos aquí abajo una
+digamos un atributo o una propiedad
+digan el nombre que ustedes quieran que
+se los puse acá abajo son cuatro los que
+existen y tenemos before beijing after
+begin before and after en aquí al lado
+les puse para que ustedes no se olviden
+dónde es que esto va a trabajar o cómo
+que es que esto va a trabajar entonces
+before begin dice se inserta antes de la
+etiqueta html de apertura
+after begin se inserta después de la
+etiqueta o sea su primer hijo sí o sea
+después de la apertura como su primer
+hijo ok
+before en se inserta dentro de la
+etiqueta como último hijo y esto sería
+como a pensar ustedes vieron que a
+pensar que cuando lo hicimos con la
+lista en el vídeo pasado lo insertó como
+último de la lista bueno a pensar
+entonces lo inserta como último hijo
+before en entonces es haría exactamente
+lo mismo lo mismo que antes a pensarlo
+insertar ya como último hijo y after en
+se inserta después de la etiqueta html
+de cierre ok entonces básicamente las
+posiciones serían las siguientes yo acá
+genere por ejemplo un
+con existente de como el cual ese lector
+vive esta sería una línea que podríamos
+pensar que selecciona este día dentro de
+una html ok o sea apunta si recuerdan
+este está esto que yo les expliqué tipo
+de la mira de un francotirador apunta a
+este objeto si hipotéticamente hablando
+como ya les dije este documento no
+estaba bien redactado es simplemente a
+título de explicarles a ustedes pero
+podemos pensar por un momento que esto
+está constante existente apunta a este
+objeto y éste está constante a insertar
+es lo que yo voy a insertar y voy a
+insertar un pib si yo quiero insertar un
+divo entonces si yo usará esta primera
+opción me for begin y le pasará insertar
+lo que estaría insertando es un día
+antes
+fíjense antes de la etiqueta html de
+apertura o sea que el libro estaría
+generando acá si yo estaría colocando un
+div en este lugar si esto sería entonces
+antes de la etiqueta de apertura esto
+haría con esta opción con la opción 1 yo
+haría esto
+ok si yo le digo la siguiente after
+begin si es como primer hijo o sea que
+sería como si yo esto lo sacara de acá y
+lo pusiera que esto sería con la segunda
+opción que sería primer hijo ok
+esta sería after begin si se pusiera
+before en before en sería como dijimos
+como a pensar a pensar y sería como
+último hijo si fuera último hijo esta
+línea pasaría aquí abajo
+eso sería último hijo si yo usará esta
+línea en mi código y no las anteriores
+si y si usará la última after en sería
+entonces como un objeto después de la
+etiqueta de cierre o sea que sería en
+esta posición después de que termina sí
+entonces tenemos antes del día primer
+hijo del día último hijo del día i
+digamos hermano del día el primer
+hermano del que estaba abajo de este
+otro dice ok esas serían las cuatro
+posiciones que nosotros tenemos para
+ubicar un objeto con insert
+hsn element del mismo modo si yo esto lo
+cambió por
+html
+que sería la segunda opción si esta
+segunda opción que tenemos acá insertar
+directamente html yo sí quiero por
+ejemplo insertar esto sería before begin
+o sea que sería aquí adelante si yo acá
+en vez de pasarle por ejemplo como en
+este caso una variable una constante yo
+le pongo entre comillas como dije yo
+pongo entre comillas sí y acá pongo un
+código por ejemplo una etiqueta p sí y
+acá pongo
+hola mundo
+esto yo lo estaría
+poniendo acá
+y eso es lo que estaría haciendo si en
+vez de hacerlo ahí lo haría acá esto
+sería como primer hijo entonces sería
+como que esto control x lo estoy
+poniendo acá este sería el primer hijo
+del día si lo pongo en esta opción
+html y vamos a poner acá html
+y si lo pongo en la tercera opción en
+esta tercera opción sería como que esta
+línea estuviera acá obviamente esto
+mismo se tendría que estar acá
+acá
+y acá
+estoy mostrando de a uno por vez y osea
+para que eso estuviera ahí esta línea
+tendría que estar comentada esta línea
+tendría que estar comentada y esta línea
+tendría que estar comentada y sólo
+tendríamos entonces
+esto como si fuera un a pensar sí sí yo
+comento esta línea en el código y des
+comentó esta línea lo que estaría
+haciendo es llevar esta línea abajo
+si él estaría llevando abajo como el
+primer hermano si eso es lo que estaría
+haciendo si yo uso este código de esta
+forma
+ok
+y esto mismo aplica para texto
+si yo quiero poner en vez de html acá
+quiero usar texto
+si yo acá no voy a poner entonces
+etiquetas html voy a solamente colocar
+texto y lo que estaría haciendo en este
+caso si esto estuviera comentado sería
+colocando el texto hola mundo aquí
+encima si eso es lo que estaría haciendo
+el machete ml
+ok con esta línea y aplicaría en after
+begin before and after en como les acabo
+de mostrar a ustedes en cada una de las
+ocasiones
+quiero que esto lo practiquen yo se los
+mostré acá en una sola pantalla porque
+creía que lo iban a ver mejor y lo iban
+a entender mejor viéndolo así en una
+sola pantalla pero pónganlo en práctica
+si con el código y digamos el código y
+el html y prueben a hacer estas pruebas
+como acabo de hacer yo seleccionar un
+div y poner por ejemplo un párrafo o un
+vive encima como primer hijo como último
+hijo y como primer hermano prueben hacer
+eso
+directamente como un elemento sí o como
+un html o pueden hacerlo con texto como
+quieran tomen nota de esto que acabo de
+explicar y guarden celo porque es muy
+útil es todo por este vídeo espero que
+les haya gustado y los veo en un próximo
+vídeo como siempre recuerden suscribirse
+si aún no lo han hecho comentar dejar un
+comentario agradecimiento duda o
+pregunta abajo el vídeo y compartir esto
+con quienes ustedes consideren que les
+puede ser de utilidad
+los veo el próximo vídeo y 8
