@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script>
+        // Función que simula ir a tomar cerveza
+        function GoToBeer(fn){
+            // Imprimir en consola el mensaje "Ir a tomar cerveza"
+            console.log("Ir a tomar cerveza");
+
+            // Llamar a la función pasada como argumento (en este caso, GoToHome)
+            fn();
+
+            // Imprimir en consola el mensaje "Me dan ganas de mas cerveza"
+            console.log("Me dan ganas de mas cerveza");
+        }
+
+        // Función que simula ir a casa
+        function GoToHome(){
+            // Imprimir en consola el mensaje "Ir a casa"
+            console.log("Ir a casa");
+        }
+
+        // Llamar a la función GoToBeer y pasar la función GoToHome como argumento
+        GoToBeer(GoToHome);
+
+        // Resultado esperado en la consola del navegador:
+        // Ir a tomar cerveza
+        // Ir a casa
+        // Me dan ganas de mas cerveza
+    </script>
+</body>
+</html>
