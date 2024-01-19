@@ -22,9 +22,15 @@
             }
         }
 
+        // Herencia
+        class PaleAle extends Beer{
+            show(){
+                return "Hola soy paleale"
+            }
+        }
 
         // Creación de una instancia de la clase Beer
-        let beer = new Beer("Tremens", "Delirium");
+        let beer = new PaleAle("Tremens", "Delirium");
 
         // Imprimir el nombre de la cerveza en la consola
         console.log(beer.name);
