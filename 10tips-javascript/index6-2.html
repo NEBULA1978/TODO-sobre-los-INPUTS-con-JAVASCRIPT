@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script>
+        // Función de orden superior que toma una función de primer orden como argumento
+        function operateOnNumbers(a, b, operation) {
+            return operation(a, b);
+        }
+
+        // Funciones de primer orden (operaciones)
+        function add(x, y) {
+            return x + y;
+        }
+
+        function multiply(x, y) {
+            return x * y;
+        }
+
+        function subtract(x, y) {
+            return x - y;
+        }
+
+        // Uso de la función de orden superior con diferentes funciones de primer orden
+        const result1 = operateOnNumbers(5, 3, add);
+        console.log("Resultado de la suma:", result1);
+
+        const result2 = operateOnNumbers(5, 3, multiply);
+        console.log("Resultado de la multiplicación:", result2);
+
+        const result3 = operateOnNumbers(5, 3, subtract);
+        console.log("Resultado de la resta:", result3);
+    </script>
+</body>
+</html>
