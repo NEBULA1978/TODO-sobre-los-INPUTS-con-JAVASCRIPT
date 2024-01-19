@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script>
+        // Definir un objeto 'beer' con propiedades 'name' y 'brand'
+        let beer = {name: "Tremens", brand: "Delirium"};
+
+        // Crear una copia profunda del objeto 'beer' usando JSON.stringify y JSON.parse
+        let beer2 = JSON.parse(JSON.stringify(beer));
+
+        // Modificar la propiedad 'name' del objeto copiado
+        beer2.name = "Red";
+
+        // Mostrar en la consola la propiedad 'name' del objeto original y del objeto copiado
+        console.log("Nombre Original de la Cerveza:", beer.name);
+        console.log("Nombre de la Cerveza Copiada:", beer2.name);
+    </script>
+</body>
+</html>
