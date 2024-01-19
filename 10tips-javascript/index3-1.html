@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script>
+
+        function hola(){
+            console.log("Hola Mundo desde funcion hola");
+        }
+
+        // Creación de un array llamado "numbers" con algunos números
+        let numbers = [1, 3, 5, 15, 20];
+
+        // Creación de un array llamado "functions" con dos funciones de flecha
+        let functions = [
+            // Primera función que imprime "hola" en la consola
+            () => console.log("hola"),
+
+            // Segunda función que imprime "soy y estoy" en la consola
+            () => console.log("soy y estoy"),
+            hola
+        ];
+
+        // Iteración a través de las funciones y ejecución de cada una
+        functions.forEach(element => element());
+    </script>
+</body>
+</html>
